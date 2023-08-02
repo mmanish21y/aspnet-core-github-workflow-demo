@@ -84,3 +84,4 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.ASP_CORE_WEB_01_PUBLISH_PROFIL }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+          
