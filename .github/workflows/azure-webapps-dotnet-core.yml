@@ -7,9 +7,12 @@ env:
   DOTNET_VERSION: '6.0.x'                 # set this to the .NET Core version to use
 
 on:
+  pull_request:
   push:
     branches:
       - main
+      - 'JUL2023/*'
+      
   workflow_dispatch:
 
 jobs:
